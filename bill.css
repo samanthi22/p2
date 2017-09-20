@@ -1,0 +1,25 @@
+body {
+	padding-top: 100px;
+	width: 800px;
+	margin: 0 auto;
+	font-family: 'Asap Condensed', sans-serif;
+
+}
+
+.heading {
+	color: white;
+}
+
+h1 {
+	color: purple;
+	font-family: 'Asap Condensed', sans-serif;
+}
+
+input[type=text] {
+	width: 5%;
+	padding: 10px 20px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid purple;
+}
+
