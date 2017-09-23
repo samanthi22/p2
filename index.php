@@ -1,3 +1,5 @@
+<?php require('pay_bill.php'); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,19 +11,20 @@
 <body>
 <h1>Bill Splitter</h1>
 
+<form method='GET' action='/'>
+<p><label for='people'>Split how many ways?</label><input type="text" name="people" id="people" value='<?=$people?>'></p>
 
-<p>Split how many ways?<input type="text" name="people" id='people'></p>
+<p><label for='tab'>How much was the tab? </label><input type="text" name="tab" id="tab" value='<?=$tab?>'></p>
 
-<p>How much was the tab? <input type="text" name="amount" id='amount' value='a'></p>
-
-<p>How was the service? <select name="tip"><option value="18">Good (18% tip) </option><option value="20"> Excellent (20% tip) </option>
+<p><label for='tip_amount'><select name='tip_amount' id='tip_amount'>How was the service?<option value="18">Good (18% tip) </option><option value="20"> Excellent (20% tip) </option>
 </select></p>
 
-<p><b>Round up?</b> <input type="checkbox" name="round_up"> Yes </p>
+<p><b>Round up?</b> <input type="checkbox" name="round_up" id="round_up" value="yes"><label for="round_up"> Yes </label></p>
 <p>
 <input type="submit" value="Calculate"></p>
+</form>
 
-
+<div class="display">Every owes <?=$each_pay ?> and if you are paying for your girlfriend's meal you owe <?=$double_amount?></div>
 <!-- amount if paying for oneself and another (double what everyone owes) -->
 </body>
 </html>

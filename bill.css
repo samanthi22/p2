@@ -6,20 +6,22 @@ body {
 
 }
 
-.heading {
-	color: white;
-}
-
 h1 {
 	color: purple;
 	font-family: 'Asap Condensed', sans-serif;
 }
 
-input[type=text] {
-	width: 5%;
+
+/*input[type=text] {
+	width: 20%;
 	padding: 10px 20px;
 	margin: 5px 0;
 	box-sizing: border-box;
 	border: 1px solid purple;
+}*/
+
+.display {
+	color: orange;
+	border: 2px solid purple;
 }
 
