@@ -24,7 +24,7 @@
 <input type="submit" value="Calculate"></p>
 </form>
 
-<div class="display">Every owes <?=$each_pay ?> and if you are paying for your girlfriend's meal you owe <?=$double_amount?></div>
+<div class="display">Every owes <span class="amount"><?=$each_pay ?> </span>and if you are paying for your girlfriend's meal you owe <span class="amount"><?=$double_amount?></span></div>
 <!-- amount if paying for oneself and another (double what everyone owes) -->
 </body>
 </html>

@@ -21,7 +21,11 @@ h1 {
 }*/
 
 .display {
-	color: orange;
-	border: 2px solid purple;
+	color: black;
+	border: 2px solid orange;
+}
+
+.amount {
+	color: purple;
 }
 
