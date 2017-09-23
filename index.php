@@ -12,11 +12,11 @@
 <h1>Bill Splitter</h1>
 
 <form method='GET' action='/'>
-<p><label for='people'> Split how many ways? </label><input type="text" name="people" id='people' value='<?=$people?>'></p>
+<p><label for='people'> Split how many ways? </label><input type="text" name="people" id='people' value='a'></p>
 
-<p><label>How much was the tab? <input type="text" name="amount"></label></p>
+<p><label for='tab'>How much was the tab? </label><input type="text" name="amount" id='amount' value='a'></label></p>
 
-<p><label>How was the service? <select name="tip"><option value="18">Good (18% tip) </option><option value="20"> Excellent (20% tip) </option>
+<p><label for='tip'>How was the service? </label><select name="tip"><option value="18">Good (18% tip) </option><option value="20"> Excellent (20% tip) </option>
 </select></label></p>
 
 <p><label><b>Round up?</b> <input type="checkbox" name="round_up"> Yes </label></p>
