@@ -16,7 +16,7 @@
 
 <p><label for='tab'>How much was the tab? </label><input type="text" name="tab" id="tab" value='<?=$tab?>'></p>
 
-<p><label for='tip_amount'><select name='tip_amount' id='tip_amount'>How was the service?<option value="18">Good (18% tip) </option><option value="20"> Excellent (20% tip) </option>
+<p><label for='tip_amount'>How was the service?</label><select name='tip_amount' id='tip_amount'><option value="18">Good (18% tip) </option><option value="20"> Excellent (20% tip) </option>
 </select></p>
 
 <p><b>Round up?</b> <input type="checkbox" name="round_up" id="round_up" value="yes"><label for="round_up"> Yes </label></p>
