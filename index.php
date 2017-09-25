@@ -20,11 +20,15 @@
 </select></p>
 
 <p><b>Round up?</b> <input type="checkbox" name="round_up" id="round_up" value="yes"><label for="round_up"> Yes </label></p>
+
+
 <p>
 <input type="submit" value="Calculate"></p>
+
 </form>
 
-<div class="display">Every owes <span class="amount">$<?=$each_pay; ?> </span>and if you are paying for your girlfriend's meal you owe <span class="amount">$<?=$double_amount; ?></span></div>
+
+<div class="display">Every owes <span class="amount">$<?=$each_pay; ?> </span>and if you are paying for your girlfriend's meal you owe <span class="amount">$<?=$double_amount; ?></span></div> 
 <!-- amount if paying for oneself and another (double what everyone owes) -->
 </body>
 </html>
