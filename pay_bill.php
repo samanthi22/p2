@@ -6,8 +6,6 @@ $how_many_people = $_GET['people'];
 $how_much_tab = $_GET['tab'];
 $tip = $_GET['tip_amount'];
 $round = $_GET['round_up'];
-$girlfriend = $_GET['double-amt'];
-
 // Everyone owes _ and if you are paying for your girlfriend you owe _.
 
 $amount_with_tip = $how_much_tab * (($tip/100)+1.0);
