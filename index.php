@@ -27,6 +27,16 @@
 
 </form>
 
+<?php if(!empty($errors)) : ?>
+	<div class="error">
+		<ul>
+			<?php foreach($errors as $error) : ?>
+				<li><?=$error?></li>
+			<?php endforeach; ?>
+		</ul>
+	</div>
+<?php endif ?>
+
 <div class="display">Every owes <span class="amount">$<?=$each_pay; ?> </span>and if you are paying for your girlfriend's meal you owe <span class="amount">$<?=$double_amount; ?></span></div> 
 <!-- amount if paying for oneself and another (double what everyone owes) -->
 	
